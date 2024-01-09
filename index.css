@@ -1,0 +1,28 @@
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.result {
+    border: 1px solid green;
+    width: 300 px;
+
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+}
+
+body {
+    background-color: blue;
+}
+
+.para {
+    display: flex;
+    text-align: center;
+}
+
+p{
+    padding-left: 60px;
+}

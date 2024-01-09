@@ -54,7 +54,7 @@ function playRound() {
       result = "Computer wins";
       computerScore++;
    }
-   let div = document.querySelector("div");
+   let div = document.querySelector(".result");
    div.innerText = `${result}\n Player Score: ${playerScore} | Computer Score: ${computerScore}`;
    if (playerScore ===winningScore || computerScore === winningScore){
       announceWinner();
@@ -69,7 +69,7 @@ function announceWinner() {
    else {
       div.innerText += `\n\n${winner} wins the game`;
    }
-
+   
  
 }
 }
